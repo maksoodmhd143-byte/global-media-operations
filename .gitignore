@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config/brand-profile.yml
+config/brand-profile.local.yml
+knowledge/*.yml
+!knowledge/*.example.yml
+knowledge/*.local.*
+.claude/settings.local.json
+secrets/
+credentials/
+tokens/
+
+# Runtime data and generated assets
+data/
+storage/
+logs/
+*.log
+content/*/audio/
+content/*/video/
+
+# Build output and local tooling
+node_modules/
+dist/
+build/
+out/
+.cache/
+.DS_Store
