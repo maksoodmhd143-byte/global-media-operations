@@ -1,0 +1,10 @@
+policy:
+  status: draft
+  version: 1
+  auto_reply_allowed_intents: [greeting, thanks, faq]
+  approval_required_intents: [complaint, support_request, refund_or_dispute, sales_lead, partnership, sponsorship, press, employment, unknown]
+  always_escalate_intents: [safety_or_crisis, legal, privacy_request, security]
+  approvers: []
+  escalation_channel: null
+  response_sla_minutes: null
+  confidence_threshold: 0.92
