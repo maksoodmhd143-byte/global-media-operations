@@ -1,0 +1,10 @@
+faqs:
+  - id: faq-example-001
+    status: draft
+    question_patterns: ["What does your brand do?"]
+    answer: "Add the exact approved answer here."
+    source_url: null
+    locale: en
+    approved_by: null
+    approved_at: null
+    version: 1
