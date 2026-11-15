@@ -1,0 +1,9 @@
+rejected_replies:
+  - id: rejected-example-001
+    status: draft
+    example: "Add a reply the brand owner does not want used."
+    reason: "Explain why it is unsuitable."
+    replacement_guidance: "Describe the preferred approach."
+    approved_by: null
+    approved_at: null
+    version: 1
