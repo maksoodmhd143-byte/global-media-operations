@@ -1,0 +1,10 @@
+approved_replies:
+  - id: reply-example-001
+    status: draft
+    intent: greeting
+    incoming_example: "Hello!"
+    approved_reply: "Hello! Thanks for reaching out. How can we help?"
+    conditions: ["Use only when the message is a simple greeting."]
+    approved_by: null
+    approved_at: null
+    version: 1
