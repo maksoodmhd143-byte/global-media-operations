@@ -1,0 +1,111 @@
+brand:
+  name: "UNCONFIRMED - choose brand name before public launch"
+  language: "en"
+  audience: "worldwide"
+  voice: "clear, credible, accessible, curious"
+  visual_identity:
+    status: "provisional"
+    primary_color: null
+    secondary_color: null
+    logo_path: null
+    fonts: []
+content:
+  packages_per_day: 1
+  target_video_seconds: 30
+  categories:
+    - technology-ai
+    - business-entrepreneurship
+    - science-space
+    - world-explainers
+    - education
+    - history-culture
+    - environment
+    - careers-productivity
+publishing:
+  automatic_after_quality_gates: true
+  live_publishing_enabled: false
+  human_review_categories:
+    - medical
+    - legal
+    - financial
+    - elections
+    - armed-conflict
+    - disasters
+    - criminal-allegations
+    - personal-data
+platforms:
+  youtube:
+    enabled: false
+  instagram:
+    enabled: false
+  facebook:
+    enabled: false
+  linkedin:
+    enabled: false
+budget:
+  mode: "free-first"
+  paid_services_require_user_approval: true
+
+intelligence:
+  trend_scan_enabled: true
+  competitor_research_enabled: true
+  competitor_watchlist: []
+  audience_analysis_enabled: true
+  use_only_permitted_aggregated_or_authorised_data: true
+growth:
+  experiments_enabled: true
+  artificial_engagement_prohibited: true
+revenue:
+  research_enabled: true
+  outreach_enabled: false
+  monetisation_activation_enabled: false
+  user_approval_required_for_external_commitments: true
+operations:
+  daily_run_enabled: false
+  emergency_stop_enabled: true
+  budget_alert_threshold: null
+  backup_enabled: false
+
+community_management:
+  enabled: false
+  monitoring_mode: "webhooks_with_permitted_polling_fallback"
+  always_on_target: true
+  start_in_draft_only: true
+  auto_reply_enabled: false
+  auto_reply_categories:
+    - greeting
+    - thanks
+    - faq
+  confidence_threshold: 0.92
+  require_approved_knowledge: true
+  require_audit_log: true
+  global_pause_enabled: true
+  quiet_hours_enabled: false
+  conversation_retention_days: 90
+  escalate_categories:
+    - complaint
+    - refund_or_dispute
+    - partnership
+    - sponsorship
+    - press
+    - employment
+    - legal
+    - medical
+    - financial
+    - safety_or_crisis
+    - privacy_request
+    - security
+    - unknown
+  platforms:
+    youtube:
+      monitor_comments_and_supported_mentions: true
+      direct_messages: false
+    instagram:
+      monitor_comments_mentions_and_authorised_inbox: true
+      direct_messages: "requires_api_permissions_and_eligible_professional_account"
+    facebook:
+      monitor_page_comments_and_authorised_inbox: true
+      direct_messages: "requires_page_and_messaging_permissions"
+    linkedin:
+      monitor_supported_comments_and_mentions: true
+      direct_messages: "restricted_api_access_verify_before_implementation"
