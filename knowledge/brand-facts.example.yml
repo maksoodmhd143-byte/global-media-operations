@@ -1,0 +1,14 @@
+brand:
+  status: draft
+  name: null
+  mission: null
+  official_website: null
+  official_contact_channels: []
+  public_description: null
+  approved_facts: []
+  prohibited_claims: []
+approval:
+  status: draft
+  approved_by: null
+  approved_at: null
+  version: 1
