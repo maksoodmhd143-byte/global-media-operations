@@ -1,0 +1,19 @@
+platforms:
+  youtube:
+    status: unverified
+    permitted_surfaces: []
+    prohibited_assumptions: ["Do not assume a general private-message inbox exists."]
+  instagram:
+    status: unverified
+    account_type: null
+    permitted_surfaces: []
+    api_permissions: []
+  facebook:
+    status: unverified
+    page_id: null
+    permitted_surfaces: []
+    api_permissions: []
+  linkedin:
+    status: unverified
+    permitted_surfaces: []
+    api_permissions: []
